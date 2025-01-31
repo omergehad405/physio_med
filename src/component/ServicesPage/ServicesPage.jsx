@@ -1,6 +1,9 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./ServicesPage.css";
 function ServicesPage() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="servicesPage">
       <h1 className="title">Our Services</h1>
