@@ -14,16 +14,24 @@ function Header() {
 
       <ul className={`${menuClicked ? "active" : ""}`}>
         <li>
-          <Link to="/" href="">home</Link>
+          <Link to="/" href="">
+            home
+          </Link>
         </li>
         <li>
-          <Link to="/services" href="">about</Link>
+          <Link to="" href="">
+            about
+          </Link>
         </li>
         <li>
-          <Link to="" href="">services</Link>
+          <Link to="/services" href="">
+            services
+          </Link>
         </li>
         <li>
-          <Link to="" href="">contact</Link>
+          <Link to="" href="">
+            contact
+          </Link>
         </li>
       </ul>
 
