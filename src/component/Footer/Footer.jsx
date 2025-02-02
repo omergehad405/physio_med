@@ -9,9 +9,7 @@ function Footer() {
     <div className="footer_container">
       <div>
         <h1>contact us now</h1>
-        <Link>
-          <FaArrowRight />
-        </Link>
+        <a href=""> contact us</a>
       </div>
 
       <footer>
