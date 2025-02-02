@@ -19,19 +19,15 @@ function Header() {
           </Link>
         </li>
         <li>
-          <Link to="" href="">
-            about
-          </Link>
+          <Link to="">about</Link>
         </li>
         <li>
-          <Link to="/services" href="">
+          <Link to="">
             services
           </Link>
         </li>
         <li>
-          <Link to="" href="">
-            contact
-          </Link>
+          <Link to="">contact</Link>
         </li>
       </ul>
 

@@ -2,8 +2,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: #f8f9fa;
+  color: #777;
   padding: 0 5rem;
+  margin-top: 10rem;
 
   .container {
     width: 100%;
@@ -40,7 +41,7 @@
       }
 
       p {
-        color: var(--white-color);
+        color: #777;
         font-weight: bold;
         font-size: 1.5rem;
         margin-top: 2rem;
@@ -67,6 +68,7 @@
       img {
         width: 500px;
         max-width: 100%;
+        border-radius: 15px;
       }
     }
   }

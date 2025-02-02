@@ -1,6 +1,6 @@
 .hero {
   background-color: var(--second-color);
-  height: 100vh;
+  height: 90vh;
   position: relative;
 
   .hero_container {
@@ -47,9 +47,16 @@
         gap: 5rem;
         p {
           transform: rotate(90deg);
-          color: #777;
           text-transform: uppercase;
           font-size: 1.2rem;
+          color: var(--main-color);
+          font-weight: bold ; 
+        }
+
+        img {
+          width: 150px;
+          transform: rotate(-90deg);
+          margin-top: 4rem;
         }
       }
     }
@@ -96,8 +103,9 @@
       }
 
       img {
-        width: 500px;
+        width: 350px;
         max-width: 100%;
+        border-radius: 15px;
       }
     }
 
@@ -118,9 +126,15 @@
 
         p {
           transform: rotate(90deg);
-          color: #777;
+          color: var(--main-color);
+          font-weight: bold ; 
           text-transform: uppercase;
           font-size: 1.2rem;
+        }
+        img {
+          width: 150px;
+          transform: rotate(-90deg);
+          margin-top: 4rem;
         }
       }
 

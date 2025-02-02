@@ -8,12 +8,12 @@
 }
 
 :root {
-  --main-color: #FAE7C9;
-  --second-color: #102C57;
+  --main-color: #D7B26D;
+  --second-color: #155E95;
   --white-color: #fff;
   --black-color: #000000;
 }
 
 body {
-  background-color: var(--second-color);
+  background-color:#eee;
 }

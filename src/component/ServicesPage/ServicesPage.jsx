@@ -8,69 +8,100 @@ function ServicesPage() {
     <div className="servicesPage">
       <h1 className="title">Our Services</h1>
       <div className="container">
-        <div className="box left">
-          <img src="./services1.png" alt="" />
-          <p>علاج الانزلاق الغضروفي وآلام الفقرات العنقية والقطنية</p>
+        <div className="box ">
+          <img src="./services/services1.jpg" alt="" />
+          <p>علاج الانزلاق الغضروفي وآلام الفقرات </p>
+          <button className="cta">
+            <span>تعرف علي المزيد</span>
+            <svg width="15px" height="10px" viewBox="0 0 13 10">
+              <path d="M1,5 L11,5"></path>
+              <polyline points="8 1 12 5 8 9"></polyline>
+            </svg>
+          </button>
         </div>
 
-        <div className="box right">
-          <img src="./services2.png" alt="" />
+        <div className="box">
+          <img src="./services/services2.jpg" alt="" />
           <p>تأهيل حالات الشلل (النصفي/الرباعي)</p>
+          <button className="cta">
+            <span>تعرف علي المزيد</span>
+            <svg width="15px" height="10px" viewBox="0 0 13 10">
+              <path d="M1,5 L11,5"></path>
+              <polyline points="8 1 12 5 8 9"></polyline>
+            </svg>
+          </button>
         </div>
 
-        <div className="box left">
-          <img src="./services3.png" alt="" />
+        <div className="box ">
+          <img src="./services/services3.jpg" alt="" />
           <p>علاج التهابات باطن القدم (الشوكة العظمية)</p>
+          <button className="cta">
+            <span>تعرف علي المزيد</span>
+            <svg width="15px" height="10px" viewBox="0 0 13 10">
+              <path d="M1,5 L11,5"></path>
+              <polyline points="8 1 12 5 8 9"></polyline>
+            </svg>
+          </button>
         </div>
 
-        <div className="box right">
-          <img src="./services4.png" alt="" />
+        <div className="box">
+          <img src="./services/services4.jpg" alt="" />
           <p>تأهيل ما بعد الكسور وإصابات الملاعب</p>
+          <button className="cta">
+            <span>تعرف علي المزيد</span>
+            <svg width="15px" height="10px" viewBox="0 0 13 10">
+              <path d="M1,5 L11,5"></path>
+              <polyline points="8 1 12 5 8 9"></polyline>
+            </svg>
+          </button>
         </div>
 
-        <div className="box left">
-          <img src="./services5.png" alt="" />
+        <div className="box ">
+          <img src="./services/services5.jpg" alt="" />
           <p>تصحيح انحناءات وتقوسات العمود الفقري</p>
+          <button className="cta">
+            <span>تعرف علي المزيد</span>
+            <svg width="15px" height="10px" viewBox="0 0 13 10">
+              <path d="M1,5 L11,5"></path>
+              <polyline points="8 1 12 5 8 9"></polyline>
+            </svg>
+          </button>
         </div>
 
-        <div className="box right">
-          <img src="./services6.png" alt="" />
+        <div className="box">
+          <img src="./services/services6.jpg" alt="" />
           <p>علاج التهابات الأوتار والمفاصل</p>
+          <button className="cta">
+            <span>تعرف علي المزيد</span>
+            <svg width="15px" height="10px" viewBox="0 0 13 10">
+              <path d="M1,5 L11,5"></path>
+              <polyline points="8 1 12 5 8 9"></polyline>
+            </svg>
+          </button>
         </div>
 
-        <div className="box left">
-          <img src="./services7.png" alt="" />
+        <div className="box ">
+          <img src="./services/services7.jpg" alt="" />
           <p>تخفيف تيبس وخشونة المفاصل</p>
+          <button className="cta">
+            <span>تعرف علي المزيد</span>
+            <svg width="15px" height="10px" viewBox="0 0 13 10">
+              <path d="M1,5 L11,5"></path>
+              <polyline points="8 1 12 5 8 9"></polyline>
+            </svg>
+          </button>
         </div>
 
-        <div className="box right">
-          <img src="./services8.png" alt="" />
+        <div className="box">
+          <img src="./services/services8.jpg" alt="" />
           <p>جلسات الحجامة العلاجية</p>
-        </div>
-
-        <div className="box left">
-          <img src="./services8.png" alt="" />
-          <p>برامج تنزيل الوزن ثلاثية المفعول</p>
-        </div>
-
-        <div className="box right">
-          <img src="./services8.png" alt="" />
-          <p>جلسات التخسيس وإذابة الدهون</p>
-        </div>
-
-        <div className="box left">
-          <img src="./services8.png" alt="" />
-          <p>جلسات التخسيس وإذابة الدهون</p>
-        </div>
-
-        <div className="box right">
-          <img src="./services8.png" alt="" />
-          <p>أنظمة غذائية متكاملة</p>
-        </div>
-
-        <div className="box left">
-          <img src="./services8.png" alt="" />
-          <p>جلسات شد الترهلات</p>
+          <button className="cta">
+            <span>تعرف علي المزيد</span>
+            <svg width="15px" height="10px" viewBox="0 0 13 10">
+              <path d="M1,5 L11,5"></path>
+              <polyline points="8 1 12 5 8 9"></polyline>
+            </svg>
+          </button>
         </div>
       </div>
     </div>
