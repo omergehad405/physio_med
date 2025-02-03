@@ -103,6 +103,30 @@ function ServicesPage() {
             </svg>
           </button>
         </div>
+
+        <div className="box">
+          <img src="./services/services9.jpg" alt="" />
+          <p>جلسات ريكوفري</p>
+          <button className="cta">
+            <span>تعرف علي المزيد</span>
+            <svg width="15px" height="10px" viewBox="0 0 13 10">
+              <path d="M1,5 L11,5"></path>
+              <polyline points="8 1 12 5 8 9"></polyline>
+            </svg>
+          </button>
+        </div>
+
+        <div className="box">
+          <img src="./services/services10.jpg" alt="" />
+          <p>علاج ب الابر الجافة</p>
+          <button className="cta">
+            <span>تعرف علي المزيد</span>
+            <svg width="15px" height="10px" viewBox="0 0 13 10">
+              <path d="M1,5 L11,5"></path>
+              <polyline points="8 1 12 5 8 9"></polyline>
+            </svg>
+          </button>
+        </div>
       </div>
     </div>
   );

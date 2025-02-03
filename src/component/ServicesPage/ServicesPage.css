@@ -1,4 +1,5 @@
 .servicesPage {
+  margin: 10rem 0;
   .title {
     color: var(--main-color);
     text-transform: uppercase;

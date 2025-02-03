@@ -1,0 +1,54 @@
+.spinner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f9f9f9;
+}
+
+.pulse-spinner {
+  width: 60px;
+  height: 60px;
+
+  circle {
+    fill: none;
+    stroke: #3498db;
+    stroke-width: 5;
+    stroke-dasharray: 150;
+    animation: pulse-animation 1.5s infinite cubic-bezier(0.25, 0.1, 0.25, 1);
+    animation: fade-in 1s ease-out;
+  }
+}
+
+.loading-text {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  color: #666;
+  font-family: "Roboto", sans-serif;
+}
+
+@keyframes pulse-animation {
+  0% {
+    stroke-dashoffset: 150;
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    stroke-dashoffset: 0;
+    transform: scale(1.2);
+    opacity: 0.6;
+  }
+  100% {
+    stroke-dashoffset: 150;
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
